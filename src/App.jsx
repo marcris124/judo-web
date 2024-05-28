@@ -1,5 +1,6 @@
 
 import './App.css'
+import ContactMe from './Components/ContactMe'
 import CorporateValues from './Components/CorporateValues'
 import Home from './Components/Home'
 import MisionAndVision from './Components/MisionAndVision'
@@ -13,6 +14,7 @@ function App() {
       <main className="h-full w-full scrollbar-none">
       <div className="flex flex-col gap-20 scrollbar-none">
        <Home/>
+       <ContactMe/>
        <ProductsAndServices/>
        <MisionAndVision/>
        <CorporateValues/>
