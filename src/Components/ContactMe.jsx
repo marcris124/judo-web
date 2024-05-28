@@ -3,7 +3,7 @@ import whatsappLogo from "../assets/images/whatsapp.png"
 import gmailLogo from "../assets/images/gmail.png"
 const ContactMe = () => {
   return (
-    <div className="m-0 grid items-center justify-center justify-items-center grid-cols-3">
+    <div className=" grid items-center justify-center justify-items-center grid-cols-1 sm:grid-cols-3 gap-4">
         <a target={"_blank"} href="https://www.instagram.com/randorireto?igsh=MTZsNG1pcjg5bXZyZw==" className="card instagram">
             <div className="overlay"></div>
             <div className="circle">
