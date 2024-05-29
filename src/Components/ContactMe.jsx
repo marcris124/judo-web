@@ -1,13 +1,13 @@
-import instagramLogo from "../assets/images/logoInstagram.png"
-import whatsappLogo from "../assets/images/whatsapp.png"
-import gmailLogo from "../assets/images/gmail.png"
+import instagramLogo from "../assets/images/logoInstagram.webp"
+import whatsappLogo from "../assets/images/whatsapp.webp"
+import gmailLogo from "../assets/images/gmail.webp"
 const ContactMe = () => {
   return (
     <div className=" grid items-center justify-center justify-items-center grid-cols-1 sm:grid-cols-3 gap-4">
         <a target={"_blank"} href="https://www.instagram.com/randorireto?igsh=MTZsNG1pcjg5bXZyZw==" className="card instagram">
             <div className="overlay"></div>
             <div className="circle">
-            <img className="logo" src={instagramLogo}  alt="" />
+            <img className="logo" src={instagramLogo} width={75}  alt="" />
             </div>
             <p>Instagram</p>
 
