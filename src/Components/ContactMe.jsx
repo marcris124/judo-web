@@ -12,7 +12,7 @@ const ContactMe = () => {
             <p>Instagram</p>
 
         </a>
-        <a target={"_blank"} href="" className="card whatsapp">
+        <a target={"_blank"} href="https://wa.me/+573145445530" className="card whatsapp">
             <div className="overlay"></div>
             <div className="circle">
             <img className="logo" src={whatsappLogo} width={100} alt="" />

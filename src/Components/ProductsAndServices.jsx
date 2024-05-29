@@ -47,7 +47,7 @@ const ProductsAndServices = () => {
     ];
     
   return (
-    <div className='h-60 md:h-[40rem] py-4  p-2 sm:p-2 sm:px-16 '>
+    <div className='h-60 md:h-[30rem] py-4  p-2 sm:p-2 sm:px-24 '>
 
     <Carousel navigation={({ setActiveIndex, activeIndex, length }) => (
         <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2 ">
