@@ -8,7 +8,7 @@ const Home = () => {
        
    }}
     >
-       <div className=" md:bg-[#031955]  h-screen grid grid-cols-1 md:clip-polygon">
+       <div className="bg-transparent md:bg-[#000f37]  h-screen grid grid-cols-1 md:clip-polygon">
         <div className=" border-white grid justify-center md:justify-start content-center justify-items-start gap-4">
         <section className=' border-green-800 grid justify-items-center content-center lg:justify-items-start gap-4 pl-0 md:pl-8'>
           <img src={yudoLogo} width={300} height={150} />
