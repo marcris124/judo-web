@@ -3,7 +3,7 @@ import vision from "../assets/images/vision.gif"
 const MisionAndVision = () => {
   return (
     <div className=" border-red-700">
-        <div className=" border-orange-900">
+        <div className=" border-orange-900" id="mision-vision">
             <div className=" border-green-700 grid grid-cols-1 md:grid-cols-2 gap-6 p-6 px-2 md:px-20">
             <div className=" border-red-900 grid md:hidden justify-center">
                 <img src={mision} width={400} height={400} className="border-img"/>
