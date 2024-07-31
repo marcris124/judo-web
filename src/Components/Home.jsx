@@ -1,4 +1,4 @@
-import yudoLogo3D from "../assets/images/judoLogo3D.png"
+import yudoLogo3D from "../assets/images/judoLogo3D.webp"
 
 
 const Home = () => {

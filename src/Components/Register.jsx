@@ -25,7 +25,7 @@ const Register = () => {
         ¡Un placer conocerte! Introduce tus datos para registrarte.
       </Typography>
       <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96" onSubmit={handleSubmit(onSubmit)}>
-        <div className="mb-1 flex flex-col gap-2">
+        <div className="mb-1 flex flex-col gap-4">
           <Typography variant="h6" color="blue-gray" className="-mb-3">
             Nombre Completo:
           </Typography>
