@@ -1,3 +1,5 @@
+"use client"
+
 import { Button, Card, Input, Option, Select, Typography } from "@material-tailwind/react"
 
 const Register = () => {
