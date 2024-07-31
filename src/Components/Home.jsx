@@ -3,8 +3,8 @@ import yudoLogo3D from "../assets/images/judoLogo3D.png"
 
 const Home = () => {
   return (
-    <div className="grid grid-cols-1 bg-cover bg-right md:bg-center bg-no-repeat bg-[url('')]" id="home">
-       <section className=" container flex flex-col items-center px-6  mx-auto   lg:flex-row h-[90vh] ">
+    <div className="grid grid-cols-1 bg-cover bg-right md:" id="home">
+       <section className=" container flex flex-col-reverse md:flex-col items-center px-6  mx-auto   lg:flex-row h-screen md:h-[90vh] ">
       <div className="lg:w-1/2">
         <h1 className="max-w-xl font-serif text-4xl font-medium tracking-wide text-[white] capitalize md:text-6xl ">Fortaleza a través de la Disciplina</h1>
 

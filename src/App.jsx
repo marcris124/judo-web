@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-     <MyRoutes/>◘
+     <MyRoutes/>
     </>
   )
 }

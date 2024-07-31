@@ -11,7 +11,11 @@ const Hero = () => {
     <main className="h-full w-full scrollbar-none">
       <div className="flex flex-col  scrollbar-none">
         <NavComponent/>
-       <Home/>
+        <section className="my-8 md:my-0 ">
+          <Home/>
+
+        </section>
+       
        <section className='grid gap-16'>
         <ProductsAndServices/> 
         <MisionAndVision/>
